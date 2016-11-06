@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>範例</title>
+		<script language="javascript">
+			function caculate()
+			{
+				Fahrenheit=Centigrade*9/5+32;
+			}
+			while(1)
+			{
+				var Centigrade = prompt("請輸入攝氏溫度(輸入exit結束)", "");
+				var Fahrenheit;
+				if(Centigrade=="exit") break;
+				else
+				{
+					caculate();
+					alert("華式溫度為"+Fahrenheit);
+				}
+			}
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
